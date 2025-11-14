@@ -22,7 +22,7 @@ export default function App() {
 						value={num1}
 						onChange={(e) => setNum1(e.target.value)}
 						style={{ marginLeft: 8 }}
-						placeholder="e.g. 3.14"
+						placeholder=""
 					/>
 				</label>
 
@@ -33,7 +33,7 @@ export default function App() {
 						value={num2}
 						onChange={(e) => setNum2(e.target.value)}
 						style={{ marginLeft: 8 }}
-						placeholder="e.g. 2"
+						placeholder=""
 					/>
 				</label>
 			</div>
