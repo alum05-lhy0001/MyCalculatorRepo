@@ -22,7 +22,7 @@ function Calculator({ num1, num2 }) {
       <p>Product: {formatNumber(product)}</p>
       <p>Quotient: {String(quotient)}</p>
       {Number.isNaN(n1) || Number.isNaN(n2) ? (
-        <p style={{ color: "#b00" }}>Enter two valid numbers to see results.</p>
+        <p style={{ color: "blue" }}>Enter two valid numbers to see results.</p>
       ) : null}
     </div>
   );
